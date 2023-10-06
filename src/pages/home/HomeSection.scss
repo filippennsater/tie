@@ -54,3 +54,60 @@ p7{
 color: white;
 font-size: 12;
 }
+
+
+
+
+
+.about-container {
+    /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
+    background-color: rgb(255, 255, 255);
+    height: flex;
+    padding: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /*centers in x and y*/
+    justify-content: center;
+
+    align-items: center;
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+    object-fit: contain;
+}
+
+
+
+
+.about-me-container {
+    background-color: none;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+  }
+
+  .about-text-container{
+    background-color: rgb(255, 255, 255);
+    margin-top: 2vw;
+    width: 50%;
+    min-width: 400px;
+    height: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    object-fit: contain;
+    display: inline-block;
+  }
+
+  p4 {
+    color: rgb(0, 0, 0);
+    font-size: calc(9px + 0.50vw);
+    line-height: 1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
